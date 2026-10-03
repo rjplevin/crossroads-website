@@ -6,3 +6,4 @@ deployment:
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R audio $DEPLOYPATH
+
