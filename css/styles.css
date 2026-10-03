@@ -1,0 +1,33 @@
+/* Stuff added by Rich */
+.member-name {
+    font-size:18px;
+    font-weight:500;
+    letter-spacing:2px;
+    line-height: 1;
+}
+
+.member-role {
+  color: #9F7D58;
+  font-weight: 400;
+  margin-bottom: 16px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.half-center {
+    margin-left:0;
+    margin-right:0;
+    width: 50%;
+    text-align:center;
+}
+
+audio {
+  display: block; /* Allows better layout control */
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
