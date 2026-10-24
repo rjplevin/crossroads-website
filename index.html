@@ -4,7 +4,7 @@
 <title>Cully Crossroads</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/w3-band.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -20,6 +20,7 @@ body {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="#music" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MUSIC</a>
     <a href="#shows" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SHOWS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
 <!--
@@ -39,6 +40,7 @@ body {font-family: "Lato", sans-serif}
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#music" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MUSIC</a>
   <a href="#shows" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SHOWS</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
@@ -98,26 +100,89 @@ body {font-family: "Lato", sans-serif}
     <div class="w3-row w3-padding-32">
       <div class="w3-quarter">
         <p>Alan</p>
-        <img src="images/bandmember.jpg" class="w3-round w3-margin-bottom"  alt="Random Name" style="width:60%">
+        <img src="images/Alan.jpg" class="w3-round w3-margin-bottom"  alt="Alan" style="width:60%">
       </div>
       <div class="w3-quarter">
         <p>Doug</p>
-	<img src="images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+	<img src="images/Doug.jpg" class="w3-round" alt="Doug" style="width:60%">
       </div>
       <div class="w3-quarter">
         <p>Rich</p>
-        <img src="images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+        <img src="images/Rich.jpg" class="w3-round" alt="Rich" style="width:60%">
       </div>
       <div class="w3-quarter">
 	<p>Sloan</p>
-        <img src="images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <img src="images/Sloan.jpg" class="w3-round w3-margin-bottom" alt="Sloan" style="width:60%">
       </div>
     </div>
 
+    <!-- Music Section -->
+<!--
     <div class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-large">
       <h2 class="w3-wide">OUR MUSIC</h2>
       <a href="https://soundcloud.com/cully-crossroads/tracks" target="_blank"><i class="fa fa-brands fa-soundcloud"> Sound Cloud</i></a>
   </div>
+-->
+
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:1000px" id="music">
+    <h2 class="w3-wide">OUR MUSIC</h2>
+    <hr/>
+    <div class="w3-row w3-padding-24">
+      <p>Rehearsal recordings Sept/Oct 2026.</p>
+      <div class="w3-half">
+	<p class="w3-opacity w3-center">Cinnamon Girl</p>
+	<audio controls>
+          <source src="audio/Cinnamon Girl.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Dead Flowers</p>
+	<audio controls>
+          <source src="audio/Dead Flowers.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Yer So Bad</p>
+	<audio controls>
+          <source src="audio/Yer So Bad.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Swinging Doors</p>
+	<audio controls>
+          <source src="audio/Swinging Doors.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Have You Ever Seen The Rain</p>
+	<audio controls>
+          <source src="audio/Have You Seen The Rain.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Cherry Bomb</p>
+	<audio controls>
+          <source src="audio/Cherry Bomb.m4a" type = "audio/mpeg">
+	</audio>
+      </div>
+      <div class="w3-half">
+	<p class="w3-opacity w3-center">Friend of the Devil</p>
+	<audio controls>
+          <source src="audio/Friend of the Devil.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Handle With Care</p>
+	<audio controls>
+          <source src="audio/Handle With Care.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Tear My Stillhouse Down</p>
+	<audio controls>
+          <source src="audio/Tear My Stillhouse Down.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Treat Me Right*</p>
+	<audio controls>
+          <source src="audio/Treat Me Right.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Last Chance Romance*</p>
+	<audio controls>
+          <source src="audio/Last Chance Romance.m4a" type = "audio/mpeg">
+	</audio>
+	<p class="w3-opacity w3-center">Don't Wait Until Tomorrow*</p>
+	<audio controls>
+          <source src="audio/Don't Wait Until Tomorrow.m4a" type = "audio/mpeg">
+	</audio>
+	<p>*Cully Crossroads original tunes</p>
+      </div>
+    </div>
 
   <!-- The Shows Section -->
   <div class="w3-black" id="shows">
@@ -127,6 +192,16 @@ body {font-family: "Lato", sans-serif}
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
+	  <!--
+          <img src="images/portland.jpg" alt="Portland" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Portland</b>
+	      <br>Address</p>
+            <p class="w3-opacity">Sat XX Dec 2026</p>
+          </div>
+	  -->
+        </div>
+        <div class="w3-third w3-margin-bottom">
           <img src="images/AlbertaStreetPub.png" alt="Alberta Street Pub" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Alberta Street Pub</b>
@@ -135,19 +210,13 @@ body {font-family: "Lato", sans-serif}
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="images/portland.jpg" alt="Portland" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Portland</b>
-	      <br>Address</p>
-            <p class="w3-opacity">Sat XX Dec 2026</p>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
+	  <!--
           <img src="images/portland.jpg" alt="Portland" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Portland</b><br>Address</p>
             <p class="w3-opacity">Sun XX Jan 2027</p>
           </div>
+	  -->
         </div>
       </div>
     </div>
